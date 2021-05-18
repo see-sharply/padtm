@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="moj_tekst">Përshendetje Botë.</string>
+    <string name="co_slychac">Ckemi?</string>
+    <string name="milo_cie_poznac">Gëzohem që u njoha.</string>
+    <string name="co_tu_robisz">Cfare po ben ketu?</string>
+    <string name="piekny_dzis_dzien">"Ashtë një ditë e bukur sot. "</string>
+</resources>

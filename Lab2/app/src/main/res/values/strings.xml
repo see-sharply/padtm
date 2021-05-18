@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="moj_tekst">Hello World.</string>
+    <string name="co_slychac">What\'s up?</string>
+    <string name="milo_cie_poznac">Nice to meet you.</string>
+    <string name="co_tu_robisz">What are you doing here?</string>
+    <string name="piekny_dzis_dzien">"It's a beautiful day today. "</string>
+</resources>

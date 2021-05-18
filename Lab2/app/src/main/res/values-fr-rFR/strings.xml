@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="moj_tekst">Bonjour le monde.</string>
+    <string name="co_slychac">Quoi de neuf?</string>
+    <string name="milo_cie_poznac">Ravi de vous rencontrer.</string>
+    <string name="co_tu_robisz">Que fais-tu ici?</string>
+    <string name="piekny_dzis_dzien">"C'est une belle journée aujourd'hui. "</string>
+</resources>

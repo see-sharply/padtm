@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="moj_tekst">Witaj świecie.</string>
+    <string name="co_slychac">Co słychać?</string>
+    <string name="milo_cie_poznac">Miło mi cię poznać.</string>
+    <string name="co_tu_robisz">Co tu robisz?</string>
+    <string name="piekny_dzis_dzien">Piękny dziś dzień.</string>
+</resources>

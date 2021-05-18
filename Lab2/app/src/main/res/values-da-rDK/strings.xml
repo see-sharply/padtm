@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="moj_tekst">Hej Verden.</string>
+    <string name="co_slychac">Hvad så?</string>
+    <string name="milo_cie_poznac">Dejligt at møde dig.</string>
+    <string name="co_tu_robisz">Hvad laver du her?</string>
+    <string name="piekny_dzis_dzien">"Det er en smuk dag i dag. "</string>
+</resources>
