@@ -12,16 +12,17 @@
         android:orientation="vertical"
         android:gravity="center">
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Name" />
         <Button
+            android:onClick="wyslij"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Widgets"/>
+            android:text="add"/>
 
 
     </LinearLayout>
