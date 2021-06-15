@@ -87,7 +87,7 @@ public class MySQLite extends SQLiteOpenHelper {
         if (cursor != null)
             cursor.moveToFirst();
 
-        Animal zwierz = new Animal(cursor.getString(1), cursor.getString(2), cursor.getFloat(3), cursor.getString(4));
+        Animal zwierz = new Animal(cursor.getInt(0), cursor.getString(1), cursor.getString(2), cursor.getFloat(3), cursor.getString(4));
         return zwierz;
     }
 

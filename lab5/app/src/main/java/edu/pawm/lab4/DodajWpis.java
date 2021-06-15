@@ -30,9 +30,11 @@ public class DodajWpis extends AppCompatActivity {
             if(extras.getSerializable("element") !=null)
             {
                 Animal zwierz = (Animal)extras.getSerializable("element");
+                Spinner gatunekSpiner = (Spinner)findViewById(R.id.gatunek);
                 EditText kolor = (EditText)findViewById(R.id.kolor);
                 EditText wielkosc = (EditText)findViewById(R.id.wielkosc);
                 EditText opis = (EditText)findViewById(R.id.opis);
+                gatunekSpiner.setSelection(gatunki.getPosition(zwierz.getGatunek()));
                 kolor.setText(zwierz.getKolor());
                 wielkosc.setText(Float.toString(zwierz.getWielkosc()));
                 opis.setText(zwierz.getOpis());

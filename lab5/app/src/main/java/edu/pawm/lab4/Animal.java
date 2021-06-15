@@ -22,6 +22,15 @@ public class Animal implements Serializable {
         this.opis = opis;
     }
 
+    public Animal(int id, String gatunek, String kolor, float wielkosc, String opis){
+        super();
+        this.id = id;
+        this.gatunek = gatunek;
+        this.kolor = kolor;
+        this.wielkosc = wielkosc;
+        this.opis = opis;
+    }
+
     @NonNull
     @Override
     public String toString() {
