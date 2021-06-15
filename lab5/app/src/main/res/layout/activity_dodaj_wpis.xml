@@ -11,19 +11,44 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center">
-        <EditText
-            android:id="@+id/editText"
+
+        <Spinner
+            android:id="@+id/gatunek"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="text"
+            android:text="gatunek" />
+
+        <EditText
+            android:id="@+id/wielkosc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="55" />
+
+        <EditText
+            android:id="@+id/kolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="kolor" />
+
+        <EditText
+            android:id="@+id/opis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="opis" />
+
         <Button
             android:onClick="wyslij"
-            android:layout_width="wrap_content"
+            android:id="@+id/dodaj"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="add"/>
-
-
+            android:text="Dodaj" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

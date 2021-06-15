@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<String> target;
     private SimpleCursorAdapter adapter;
+    private MySQLite db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         this.target.addAll(Arrays.asList(values));
 
         Context context = this;
-        MySQLite db = new MySQLite(context);
+        this.db = new MySQLite(context);
         Cursor cursor = db.lista();
         int layout = android.R.layout.simple_list_item_2;
         String[] from = new String[] {"_id", "gatunek"};
@@ -68,8 +69,12 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode==1 && resultCode == RESULT_OK)
         {
             Bundle extras = data.getExtras();
-            String nowy = (String)extras.get("wpis");
-            target.add(nowy);
+            Animal nowy = (Animal)
+            extras.getSerializable("nowy");
+
+            this.db.dodaj(nowy);
+
+            adapter.changeCursor(db.lista());
             adapter.notifyDataSetChanged();
         }
     }
